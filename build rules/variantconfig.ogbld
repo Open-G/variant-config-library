@@ -28,6 +28,39 @@ Overwrite Existing Files=TRUE
 Namespace="ogtk"
 
 
+###########################################################=""
+# Top Level VIs specifies VIs whose hierarchies are to be=""
+# included in the build. Additionally, Top Level VIs will=""
+# be set as "Top-Level" in destination LLBs if the its=""
+# Destination is converted to an LLB or EXE.  You can use=""
+# any keyname for Top Level VIs.  Keynames for this section=""
+# are arbitrary.=""
+File Format Version=1.0.1
+Log Dir=""
+Log File=""
+Log File Suffix=""
+Include Help Files=TRUE
+Help File Dir=""
+Include Shared Libs=TRUE
+Shared Lib Dir=""
+Include External Subrs=TRUE
+External Subr Dir=""
+Include Hidden VIs=TRUE
+EXE Icon File=""
+New Build Root=TRUE
+Unsaved Changes MsgBox=TRUE
+Ambiguous VIs Dest Dir=""
+Call Pre-Build VI="build support/Pre-Post Build.vi"
+Call Post-Build VI="build support/Pre-Post Build.vi"
+Revision File="build rules/variantconfig.rev"
+Version VI Name=""
+Version Ctrl Name=""
+Apply New Password=""
+RemovePolyVIsAndTypedefs=FALSE
+Allow CBVI & Build Hierarchy Overlap=TRUE
+Namespace Convention=0
+
+
 ###########################################################
 # Top Level VIs specifies VIs whose hierarchies are to be
 # included in the build. Additionally, Top Level VIs will
