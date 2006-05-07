@@ -1,0 +1,32 @@
+-= oglib_variantconfig-2.4-1.ogp =-
+
+
+Changes from 2.3-1 --> 2.4-1
+--------------------------------
+2004-11-15
+[FIX] Package now overwrites existing files in target location
+[MOD] Added encoding to sections with brackets in names
+[MOD] Added float format input to "Write Panel to INI", "Write Section
+      Cluster", and "Write INI Cluster"
+
+
+Changes from 2.2-1 --> 2.3-1
+--------------------------------
+2004-11-06
+[FIX] The float format string was not being used in arrays
+[MOD] Changed several necessart inputs to required
+
+
+Changes from 2.1-1 --> 2.2-1
+--------------------------------
+2003-11-26
+Fixed palette.  There were two instances of "Write Key (Variant)" and 
+"Read Key (Variant)" was missing.
+
+
+Changes from 2.0-1 --> 2.1-1
+--------------------------------
+2003-11-20
+Added "found?" outputs to "Read INI Cluster" and "Read Section Cluster".   
+The "found?" output will be TRUE only if all elements (recursively) are 
+found.

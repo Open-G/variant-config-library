@@ -1,0 +1,85 @@
+###########################################################
+# This section contains general project build settings.
+[General]
+
+# Project Root is optional.  If it is not specified, it is
+# assumed to be the .deab file's parent directory
+Project Root=".."
+
+# Build Root is optional.  If it is not specified, it is
+# assumed to be the Project Root.  Build Root may be either
+# an absolute path, or a path relative to the Project Root
+Build Root="built/variantconfig"
+
+# Source Root is optional.  If it is not specified, it is
+# assumed to be the Project Root.  Source Root may be either
+# an absolute path, or a path relative to the Project Root
+Source Root="source"
+
+# Overwrite Existing Files specifies whether to overwrite
+# files in the build location.  This is an optional.  If it
+# is not specified, it is assumed to be FALSE
+Overwrite Existing Files=TRUE
+
+# If a Namespace is specified, all VIs and CTLs will be
+# "name magled" with the Namespace as a suffix.  For
+# example, "MyVI.vi" with a Namespace of "MyApp" becomes
+# "MyVI__MyApp.vi" in the built software product.
+Namespace="ogtk"
+
+
+###########################################################
+# Top Level VIs specifies VIs whose hierarchies are to be
+# included in the build. Additionally, Top Level VIs will
+# be set as "Top-Level" in destination LLBs if the its
+# Destination is converted to an LLB or EXE.  You can use
+# any keyname for Top Level VIs.  Keynames for this section
+# are arbitrary.
+[Top Level VIs]
+Top Level VI 1="library/VI Tree - variantconfig.vi"
+
+
+
+###########################################################
+# Dynamic VIs specifies VIs whose hierarchies are to be
+# included in the build.  Keynames for this section are
+# arbitrary
+[Dynamic VIs]
+
+
+###########################################################
+# Destination sections should be named "Destination N", where
+# "N" is an integer.  This allows you to specify multiple
+# Destination sections.
+[Destination 1]
+
+# Every VI or CTL in the application source hierarchy which
+# is located beneath Source Directory will be aggregated into
+# Target Dir, except for those VIs and CTLs found beneath a
+# subdirectory specified as a Source Dir of another Destination
+Source Dir="."
+
+# The Build Target Dir for every VI or CTL in the application
+# source hierarchy which is located beneath Source Directory,
+# except for those VIs and CTLs found beneath a subdirectory
+# specified as a Source Dir of another Destination. 
+Target Dir="variantconfig.llb"
+
+# If TRUE, then the Target Dir will be converted into an LLB.
+# This setting may be overrided by the Convert Target to EXE
+# setting. 
+Convert Target to LLB=FALSE
+
+# If TRUE, then the Target Dir will be converted into an EXE.
+# This setting overrides the Convert Target to LLB setting. 
+Convert Target to EXE=FALSE
+
+# If TRUE, all VIs in this Destination will have thier diagrams
+# removed, during the build. 
+Remove Diagrams=FALSE
+
+
+###########################################################
+[Exclude Lib Dirs from Build]
+
+Exclude Lib Dir 1="<application>"
