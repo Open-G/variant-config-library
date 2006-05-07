@@ -1,4 +1,16 @@
--= oglib_variantconfig-2.4-1.ogp =-
+-= oglib_variantconfig-2.6-1.ogp =-
+
+Changes from 2.5-1 --> 2.6-1
+--------------------------------
+2006-05-07
+[FIX] In "Read Key (Variant)" added support for DAQ types.
+[FIX] In "Write Key (Variant)" added support for DAQ types.
+
+
+Changes from 2.4-1 --> 2.5-1
+--------------------------------
+2005-10-19
+[NEW] Added palette menu to OpenG submenu
 
 
 Changes from 2.3-1 --> 2.4-1
