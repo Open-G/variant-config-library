@@ -35,7 +35,7 @@ Requires=ogrsc_dynamicpalette>=0.2,oglib_lvdata>=2.0,oglib_error>=2.0
 Conflicts=""
 
 [Files]
-Num File Groups=3
+Num File Groups=5
 
 [File Group 0]
 Source Dir=../built/variantconfig
