@@ -45,6 +45,7 @@ Num Files=1
 File 0=variantconfig.llb/*.*
 
 [File Group 1]
+Exclusive_LabVIEW_Version=6.0, 6.1, 7.0, 7.1
 Source Dir=../source/mnu
 Target Dir=<user.lib>/_dynamicpalette_dirs/file
 Replace Mode=Always
@@ -52,9 +53,25 @@ Num Files=1
 File 0=oglib_variantconfig.mnu
 
 [File Group 2]
+Exclusive_LabVIEW_Version=6.0, 6.1, 7.0, 7.1
 Source Dir=../source/mnu
 Target Dir=<user.lib>/_dynamicpalette_dirs/OpenG
 Replace Mode=Always
 Num Files=1
 File 0=oglib_variantconfig.mnu
 
+[File Group 3]
+Exclusive_LabVIEW_Version=>=8.0
+Source Dir=../source/mnu-8x
+Target Dir=<user.lib>/_dynamicpalette_dirs/file
+Replace Mode=Always
+Num Files=1
+File 0=oglib_variantconfig.mnu
+
+[File Group 4]
+Exclusive_LabVIEW_Version=>=8.0
+Source Dir=../source/mnu-8x
+Target Dir=<user.lib>/_dynamicpalette_dirs/OpenG
+Replace Mode=Always
+Num Files=1
+File 0=oglib_variantconfig.mnu
