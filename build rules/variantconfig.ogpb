@@ -1,12 +1,12 @@
 [Package Name]
 Name=oglib_variantconfig
-Version=2.6
+Version=2.7
 Release=1
 
 [Description]
 Description="The variantconfig package contains tools for writing and reading variant data to and from INI files."
 Summary="OpenG Variant Config File IO Tools"
-License=LGPL
+License=BSD
 Copyright="2002-2006 Jean-Pierre Drolet, Jim Kring, Heiko Fettig"
 Distribution="OpenG Toolkit"
 Icon=../source/images/variantconfig.bmp
