@@ -1,7 +1,7 @@
 [variantconfig.ogbld]
 Version=0.0.0
-Build_Number=15
-Build_Date="12/4/2006 8:34:18 AM"
+Build_Number=16
+Build_Date="12/4/2006 8:35:40 AM"
 Status=OK
 Warnings=0
 Log_File="/D/Projects/OpenG/opengtoolkit/SVN_Folders/variantconfig/build rules/variantconfig.log"
