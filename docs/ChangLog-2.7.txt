@@ -1,3 +1,4 @@
 2006-12-03
+[NEW] Relicensed under BSD (instead of LGPL)
 [NEW] 80% unit test coverage during library build.
 [MOD] Added better escape-coding of special characters in section and key names.
