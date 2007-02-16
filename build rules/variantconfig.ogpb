@@ -31,7 +31,7 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires=ogrsc_dynamicpalette>=0.2,oglib_lvdata>=2.0,oglib_error>=2.0
+Requires=ogrsc_dynamicpalette>=0.2,oglib_lvdata>=2.0,oglib_string>=2.0,oglib_error>=2.0
 Conflicts=""
 
 [Files]
