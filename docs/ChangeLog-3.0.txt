@@ -1,0 +1,1 @@
+* Changed source code to LabVIEW 8.2
