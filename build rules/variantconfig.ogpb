@@ -1,21 +1,21 @@
 [Package Name]
 Name=oglib_variantconfig
-Version=2.7
-Release=1
+Version=3.0
+Release=2
 
 [Description]
 Description="The variantconfig package contains tools for writing and reading variant data to and from INI files."
-Summary="OpenG Variant Config File IO Tools"
+Summary=OpenG Variant Config File IO Tools
 License=BSD
-Copyright="2002-2006 Jean-Pierre Drolet, Jim Kring, Heiko Fettig"
-Distribution="OpenG Toolkit"
+Copyright=2002-2010 Jean-Pierre Drolet, Jim Kring, Heiko Fettig, Ton Plomp
+Distribution=OpenG Toolkit
 Icon=../source/images/variantconfig.bmp
 Vendor=OpenG.org
-URL=http://opengtoolkit.sourceforge.net/variantconfig
-Packager="Jim Kring <jim@jimkring.com>"
+URL=http://wiki.openg.org/Oglib_variantconfig
+Packager=Jim Kring <jim@jimkring.com>
 
 [Platform]
-Exclusive_LabVIEW_Version=>=6.1
+Exclusive_LabVIEW_Version=>=8.2
 Exclusive_LabVIEW_System=All
 Exclusive_OS=All
 
@@ -31,11 +31,11 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires=ogrsc_dynamicpalette>=0.2,oglib_lvdata>=2.0,oglib_string>=2.0,oglib_error>=2.0
+Requires=ogrsc_dynamicpalette>=0.19,oglib_lvdata>=2.9,oglib_string>=2.6,oglib_error>=2.3
 Conflicts=""
 
 [Files]
-Num File Groups=5
+Num File Groups=3
 
 [File Group 0]
 Source Dir=../built/variantconfig
@@ -44,34 +44,20 @@ Replace Mode=Always
 Num Files=1
 File 0=variantconfig.llb/*.*
 
+
 [File Group 1]
-Exclusive_LabVIEW_Version=6.0, 6.1, 7.0, 7.1
-Source Dir=../source/mnu
+Source Dir=../source/mnu-8x
 Target Dir=<user.lib>/_dynamicpalette_dirs/file
 Replace Mode=Always
 Num Files=1
 File 0=oglib_variantconfig.mnu
+
 
 [File Group 2]
-Exclusive_LabVIEW_Version=6.0, 6.1, 7.0, 7.1
-Source Dir=../source/mnu
-Target Dir=<user.lib>/_dynamicpalette_dirs/OpenG
-Replace Mode=Always
-Num Files=1
-File 0=oglib_variantconfig.mnu
-
-[File Group 3]
-Exclusive_LabVIEW_Version=>=8.0
-Source Dir=../source/mnu-8x
-Target Dir=<user.lib>/_dynamicpalette_dirs/file
-Replace Mode=Always
-Num Files=1
-File 0=oglib_variantconfig.mnu
-
-[File Group 4]
-Exclusive_LabVIEW_Version=>=8.0
 Source Dir=../source/mnu-8x
 Target Dir=<user.lib>/_dynamicpalette_dirs/OpenG
 Replace Mode=Always
 Num Files=1
 File 0=oglib_variantconfig.mnu
+
+

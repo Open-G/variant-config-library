@@ -1,0 +1,1 @@
+This release (3) Upgrades the minimal LabVIEW version to 8.2 (2) adds higher unit test coverage during library build, (3) removes deprecated Read/Write methods for Front Panel value (bugID: #3004524), (4) adds support for INI files with a different decimal sign

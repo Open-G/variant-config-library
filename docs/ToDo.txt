@@ -1,2 +1,1 @@
-* Add unit tests for "Read/Write Panel from/to INI"
 * Trime excess array element keys.

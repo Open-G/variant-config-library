@@ -1,1 +1,6 @@
 * Changed source code to LabVIEW 8.2
+* Replaced Flat get and Set methods in 'Read Panel from INI' and 'Write Panel to INI' with Get Set Varant (BUG ID: 3004524)
+* Added TestVIs for non-period OS's
+* Added TestVIs for 'Read Panel from INI' and 'Write Panel to INI'
+* Added Format string for 'Read Panel from INI' for floating numeric arrays (BUG ID: 3004519)
+* Added documentation for 'Read Panel from INI' and 'Write Panel to INI' (BUG ID: 1960078)

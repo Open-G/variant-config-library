@@ -189,10 +189,13 @@
          <Item Name="Read Key (Path) (Append if Relative).vi" Type="VI" URL="build support/Read Key (Path) (Append if Relative).vi"/>
       </Item>
       <Item Name="docs" Type="Folder">
-         <Item Name="change-log.txt" Type="Document" URL="docs/change-log.txt"/>
-         <Item Name="ChangLog-2.7.txt" Type="Document" URL="docs/ChangLog-2.7.txt"/>
+         <Item Name="History" Type="Folder">
+            <Item Name="change-log.txt" Type="Document" URL="docs/change-log.txt"/>
+            <Item Name="ChangLog-2.7.txt" Type="Document" URL="docs/ChangLog-2.7.txt"/>
+            <Item Name="ReleaseNotes-2.7.txt" Type="Document" URL="docs/ReleaseNotes-2.7.txt"/>
+         </Item>
+         <Item Name="ChangeLog-3.0.txt" Type="Document" URL="docs/ChangeLog-3.0.txt"/>
          <Item Name="History.txt" Type="Document" URL="docs/History.txt"/>
-         <Item Name="ReleaseNotes-2.7.txt" Type="Document" URL="docs/ReleaseNotes-2.7.txt"/>
          <Item Name="ToDo.txt" Type="Document" URL="docs/ToDo.txt"/>
       </Item>
       <Item Name="source" Type="Folder">
@@ -220,12 +223,17 @@
          </Item>
       </Item>
       <Item Name="tests" Type="Folder">
+         <Item Name="Helper VIs" Type="Folder">
+            <Item Name="TESTPanelHelper.vi" Type="VI" URL="tests/Helper/TESTPanelHelper.vi"/>
+            <Item Name="TEST - BUG ID 1501747.vi" Type="VI" URL="tests/TEST - BUG ID 1501747.vi"/>
+         </Item>
          <Item Name="INTEGRATION TEST - Integrated test.vi" Type="VI" URL="tests/INTEGRATION TEST - Integrated test.vi"/>
          <Item Name="INTEGRATION TEST - Legacy Support.vi" Type="VI" URL="tests/INTEGRATION TEST - Legacy Support.vi"/>
          <Item Name="TEST - Encode Section and Key Names.vi" Type="VI" URL="tests/TEST - Encode Section and Key Names.vi"/>
          <Item Name="TEST - Format Numeric Array.vi" Type="VI" URL="tests/TEST - Format Numeric Array.vi"/>
          <Item Name="TEST - Read INI Cluster.vi" Type="VI" URL="tests/TEST - Read INI Cluster.vi"/>
          <Item Name="TEST - Write INI Cluster.vi" Type="VI" URL="tests/TEST - Write INI Cluster.vi"/>
+         <Item Name="TEST - Write Panel to INI.vi" Type="VI" URL="tests/TEST - Write Panel to INI.vi"/>
       </Item>
       <Item Name="build.vi" Type="VI" URL="build.vi"/>
       <Item Name="test.vi" Type="VI" URL="test.vi"/>
