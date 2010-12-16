@@ -1,1 +1,7 @@
+[2010.12.16 JG]
+Skipped "TEST - Write INI Cluster.vi" and "TEST - Write Panel to INI.vi"
+Need to review 8.6 Config VIs, upgrade tests?
+
+
+[Old]
 * Trime excess array element keys.
