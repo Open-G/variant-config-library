@@ -1,2 +1,0 @@
-<!-- Graphic Reference -->
-<p><img src="{function conpane image path}" border="0"></p>
