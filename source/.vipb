@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-16 18:53:39" Modified_Date="2010-12-16 21:55:41" Creator="Jonathon Green" Comments="" ID="add6f26a12db116464852482ef589434">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-16 18:53:39" Modified_Date="2011-04-10 13:40:01" Creator="Jonathon Green" Comments="" ID="fb1b8d65748c85fad4d77cfadc9192f8">
   <Library_General_Settings>
     <Package_File_Name>oglib_variantconfig</Package_File_Name>
-    <Library_Version>4.0.0.4</Library_Version>
+    <Library_Version>4.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
