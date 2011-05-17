@@ -1,6 +1,6 @@
-OpenG Variant Configuration File VIs
+OpenG Variant Configuration File Library
 
-Copyright (c) 2002-2010 Jean-Pierre Drolet, Jim Kring, Heiko Fettig, Ton Plomp; 2010 Jonathon Green
+Copyright (c) 2002-2010 Jean-Pierre Drolet, Jim Kring, Heiko Fettig, Ton Plomp; 2010-2011 Jonathon Green
 
 All rights reserved.
 
